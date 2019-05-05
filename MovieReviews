@@ -1,9 +1,0 @@
-import nltk
-nltk.download('movie_reviews')
-nltk.download('stopwords')
-import nltk.classify.util
-from nltk.classify import NaiveBayesClassifier
-from nltk.corpus import movie_reviews
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-
